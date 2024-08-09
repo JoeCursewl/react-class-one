@@ -13,9 +13,6 @@
     padding: 1.5rem 0;
 }
 
-<<<<<<< HEAD
-
-=======
 .navbar-links ul {
     display: flex;
     justify-content: center;
@@ -23,4 +20,14 @@
     gap: 20px;
 
 }
->>>>>>> 8d5426409e3cdc8b1be31fc5eacfd13330de1438
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-logo img {
+    width: 180px;
+    height: auto;
+}

@@ -6,8 +6,8 @@ export default function Navbar() {
         <nav className='navbar-all'>
 
             <div className='navbar'>
-                <div>
-                    <h1>LOGO</h1>
+                <div className='navbar-logo'>
+                    <img src="/logo-enjoyit.svg" alt="Enjoyit Logo" />
                 </div>
 
                 <div className ='navbar-links'>

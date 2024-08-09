@@ -10,7 +10,7 @@ export default function Navbar() {
                     <h1>LOGO</h1>
                 </div>
 
-                <div>
+                <div className ='navbar-links'>
                     <ul>
                         <li>Home</li>
                         <li>About</li>

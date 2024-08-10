@@ -1,4 +1,5 @@
 import './Navbar.css'
+import { Link } from 'react-router-dom'
 
 export default function Navbar() {
 
@@ -7,7 +8,9 @@ export default function Navbar() {
 
             <div className='navbar'>
                 <div className='navbar-logo'>
-                    <img src="/logo-enjoyit.svg" alt="Enjoyit Logo" />
+                    <Link to={'/elperrito'}>
+                        <img src="/logo-enjoyit.svg" alt="Enjoyit Logo" />
+                    </Link>
                 </div>
 
                 <div className ='navbar-links'>

@@ -45,6 +45,23 @@
     gap: .5rem;
 }
 
+.img-e-poster-info img {
+    width: 100px;
+    height: auto;
+}
+
+.img-e-poster-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: .8rem;
+}
+
+.img-e-poster-info aside {
+    font-size: 3.5rem;
+    font-weight: 800;
+}
 
 .en-card-product img { 
     border-radius: 1rem;

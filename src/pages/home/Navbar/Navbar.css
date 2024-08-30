@@ -21,6 +21,13 @@
 
 }
 
+.navbar-links a {
+    text-decoration: none;
+    color: #69c7fd;
+    font-weight: 500;
+    transition: .2s ease-in-out;
+}
+
 .navbar-logo {
     display: flex;
     align-items: center;

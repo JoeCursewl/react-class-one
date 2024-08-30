@@ -18,7 +18,10 @@ export default function Navbar() {
                         <Link to={'/home'}>
                             <li>Home</li>
                         </Link>
-                        <li>About</li>
+                        <Link>
+                            <li>About</li>
+                        </Link>
+                        <Link to={'/login'}>Cerrar sesión</Link>
                     </ul>
                 </div>
             </div>
